@@ -20,9 +20,9 @@ Project organized by exercise levels:
 
 \*\*Ex01: No generics (baseline)\*\*  
 
-Create `NoGenericMethods` that stores 3 elements (same type in usage), with constructor and getters:
+Create `NoGenericMethods` that stores 3 element (same type in usage), with constructor and getters:
 
-\- `getElement1()`, `getElement2()`, `getElement3()`
+\- `getitem1()`, `getitem2()`, `getitem3()`
 
 Test that you can pass arguments in any order.
 
@@ -30,7 +30,7 @@ Test that you can pass arguments in any order.
 
 \*\*Ex02: Generic method with mixed parameters\*\*  
 
-Create `Person (name, surname, age)` and a class `GenericMethods` with a generic method `printElements()` that accepts 3 generic arguments and prints them.  
+Create `Person (name, lastname, age)` and a class `GenericMethods` with a generic method `printElements()` that accepts 3 generic arguments and prints them.  
 
 Test calling it with different types and orders (e.g., `Person`, `String`, numeric).
 
